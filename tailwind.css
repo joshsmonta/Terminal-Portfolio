@@ -17,6 +17,7 @@ body {
   text-size-adjust: auto;
   overflow-x: hidden;
 }
+
 b {
   font-weight: bold;
   text-decoration: underline;
@@ -29,7 +30,8 @@ b {
 
 /* Common styles */
 .ascii {
-  font-size: 20px; /* Default font size */
+  font-size: 20px;
+  /* Default font size */
 }
 
 /* Define breakpoints and font sizes */
@@ -98,16 +100,19 @@ b {
   text-decoration: blink;
   animation: blinker 1s linear infinite;
 }
+
 @keyframes blinker {
   50% {
     opacity: 0;
   }
 }
+
 #command {
   cursor: text;
   height: 50px;
   color: #31748f;
 }
+
 #liner {
   line-height: 1.3em;
   margin-top: -2px;
@@ -115,27 +120,33 @@ b {
   animation-delay: 1.2s;
   opacity: 0;
 }
+
 #liner::before {
   color: #b4637a;
   content: "[prithvi@archrx5500m]~$";
 }
+
 #liner.password::before {
   content: "Password:";
 }
+
 @keyframes show {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
+
 /* Cursor End */
 
 @keyframes show {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -144,23 +155,29 @@ b {
 .index {
   color: #dcdccc;
 }
+
 .color2 {
   color: #8285c1f0;
 }
+
 .command {
   color: #9ccfd8;
   text-shadow: 0 0 5px #31748f;
 }
+
 .error {
   color: #6d71b9d9;
 }
+
 .white {
   color: #fff;
 }
+
 .inherit,
 a {
   color: #9ccfd8;
 }
+
 a {
   text-decoration: inherit;
 }
@@ -168,6 +185,7 @@ a {
 a:hover {
   color: #211830;
 }
+
 a:focus {
   outline: 0;
 }
